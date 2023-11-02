@@ -1,0 +1,10 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    ".expo": true,
+    ".vscode": true,
+    "package.json": true,
+    "yarn-error.log": true,
+    "yarn.lock": true
+  }
+}
