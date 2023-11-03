@@ -1,10 +1,8 @@
 # miFarm React Native Ecommerce
 
-A boilerplate for a ecommerce mobile app using React Native and Redux.
+mifarm is an ecommerce mobile app that uses React Native and Redux. It is dedicated to the sale of fresh vegetables and agricultural products.
 
-mifarm is a web-based e-commerce platform dedicated to the sale of fresh vegetables and agricultural products
-
-Technologies: TypeScript, Node.js, Express, MongoDB, RESTful API, ReactJS, React-Router, Tailwind, Redux, Redux Thunk
+Technologies: React Native, Tailwind (nativewind), Axios, Redux, Redux Thunk, Redux Persist
 
 ## Features 🔥
 
@@ -15,18 +13,18 @@ Technologies: TypeScript, Node.js, Express, MongoDB, RESTful API, ReactJS, React
 - Remove Cart
 - Category
 - Profile
-- Filters
+- Product List
 - Search
 
 ## Screens Recording
 
-![Video](/screens-shots/video_.gif?raw=true "Run time Video")
+![Video](/screenshots/demo.mp4?raw=true "Demo Video")
 
 ## Get Started
 
 #### 1. Installation
 
-On the command prompt run the following commands
+To get started, open your command prompt and run the following commands:
 
 ```sh
 $ git clone https://github.com/michino25/mi-farm-rn
@@ -38,23 +36,18 @@ $ yarn install
 
 #### 2. Simulate
 
-Install Expo Go on your device
+First, install Expo Go on your mobile device. You can find it on both the Android Play Store and iOS App Store.
 
-It is available on both the Android Play Store and iOS App Store.
+- [Android Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent) `Requires Android Lollipop 5.0 or newer`
+- [iOS App Store](https://apps.apple.com/us/app/expo-go/id982107779) `Requires iOS 13 or newer`
 
-Android Play Store - Android Lollipop (5) and greater
-https://play.google.com/store/apps/details?id=host.exp.exponent
-
-iOS App Store - iOS 13 and greater
-https://apps.apple.com/us/app/expo-go/id982107779
-
-- Run the following command in your terminal.
-  run npx expo start in your project
+Next, run the following command in your terminal:
 
 ```sh
 $ yarn start
 ```
 
-it will generates a QR code
-On Android, you can open the Expo Go app on your device and scan the QR code to connect to the dev server.
-On iOS, use the device's camera to scan the QR code.
+This will generate a QR code. To connect to the development server:
+
+- On Android, open the Expo Go app on your device and scan the QR code.
+- On iOS, use your device's camera to scan the QR code.
