@@ -18,7 +18,7 @@ Technologies: React Native, Tailwind (nativewind), Axios, Redux, Redux Thunk, Re
 
 ## Screens Recording
 
-![Video](/screenshots/demo.mp4?raw=true "Demo Video")
+![Video](/screenshots/demo.gif?raw=true "Demo Video")
 
 ## Get Started
 
